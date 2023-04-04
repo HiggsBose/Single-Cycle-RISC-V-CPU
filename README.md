@@ -14,7 +14,7 @@ To run the code, you can run the ./tb/tb_single_cycle.v
 
 The RISC Core can be divided in 5 parts: Instruction Fetch(IF), Instruction Decode(ID), Exexution(EX), Memory Access(MEM), and Write Back(WB), as is the same as 5-stage pipelined CPU.
 
-
+![image text](https://github.com/HiggsBose/Single-Cycle-RISC-V-CPU/blob/main/RISCV_top.jpg)
 
 * In IF stage, the CPU fetches one instruction from the instruction memory according to the address provided by the program counter(PC), and send it to the next stage.
 * In ID stage, the CPU decodes the instruction and generates corresponding control signals to send to different stages. The control signals are ALU signals(including ALU operands source, ALU operation type, and etc.)
