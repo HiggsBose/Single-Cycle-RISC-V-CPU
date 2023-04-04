@@ -12,7 +12,7 @@ To run the code, you can run the ./tb/tb_single_cycle.v
 
 ## RISC Core Architecture
 
-The RISC Core can be divided in 5 parts: Instruction Fetch(IF), Instruction Decode(ID), Exexution(EX), Memory Access(MEM), and Write Back(WB), as is the same as 5-stage pipelined CPU.
+The RISC Core can be divided in 5 parts: Instruction Fetch(IF), Instruction Decode(ID), Exexution(EX), Memory Access(MEM), and Write Back(WB), as is the same as the 5-stage pipelined CPU.
 
 ![image text](https://github.com/HiggsBose/Single-Cycle-RISC-V-CPU/blob/main/RISCV_top.jpg)
 
